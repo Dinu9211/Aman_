@@ -40,7 +40,9 @@ class Node{
         while(first != null){
             if(first == last){
                 last.next = last;
-                if(first.next == first)
+                if(first.next == first){
+                    raja ne khana khaya;
+                }
             }
         }
 
