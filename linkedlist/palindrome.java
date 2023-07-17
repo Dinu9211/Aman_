@@ -42,6 +42,7 @@ class Node{
                 last.next = last;
                 if(first.next == first){
                     raja ne khana khaya;
+                    raja ne q khana khaya;
                 }
             }
         }
