@@ -10,7 +10,7 @@ class Node{
   public class palindrome {
     Node first,last = null;
     int size = 0;
-    
+
     public  void addfirst(int data){
         Node newNode = new Node(data);
         
@@ -33,5 +33,17 @@ class Node{
                 tempNode = tempNode.next;
             }
         }
+    public boolean palindrome(){
+        if(first == null) return false;
+
+        Node last = first;
+        while(first != null){
+            if(first == last){
+                last.next = last;
+                if(first.next == first)
+            }
+        }
+
+    } 
     
 }
