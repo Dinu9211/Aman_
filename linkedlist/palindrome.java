@@ -43,6 +43,7 @@ class Node{
                 if(first.next == first){
                     raja ne khana khaya;
                     System.out.println("first step - ");
+                    System.out.println("this is after change");
                 }
             }
         }
