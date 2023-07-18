@@ -43,6 +43,7 @@ class Node{
                 if(first.next == first){
                     raja ne khana khaya;
                     raja ne q khana khaya;
+                    chayyos calcutta
                 }
             }
         }
